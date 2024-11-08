@@ -1,0 +1,31 @@
+# Define suppressions to prevent reporting of selected violations
+# detected by Parasoft analysis.
+# Note: One suppression entry can affect more than one violation.
+#
+# Example:
+#
+# suppression-begin
+# file: file.ext               (required)
+# line: 12                     (optional)
+# rule-id: BD-PB-VOVR          (optional)
+# message: Avoid unused values (optional)
+# reason: Approved             (optional)
+# author: devel                (optional)
+# date: 2020-09-21             (optional)
+# suppression-end
+
+suppression-begin
+file: driver.c
+rule-id: MISRAC2012-RULE_17_7-a
+message: 未使用函数的 "print_string" 返回值
+reason: dont't report here
+author: 18208
+suppression-end
+
+suppression-begin
+file: driver.c
+rule-id: MISRAC2012-DIR_4_6-b
+message: 不应使用基本数字类型 'int'
+reason: 不用报告出来
+author: 18208
+suppression-end

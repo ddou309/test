@@ -1,0 +1,50 @@
+------- cpptestscan v.10.6.3.20240229B3924 -------
+working_dir=D:\download\test1.00\examples\Timer
+project_name=Timer
+arg=gcc
+arg=-g
+arg=-I.
+arg=-o
+arg=clock.o
+arg=-c
+arg=clock.c
+------- cpptestscan v.10.6.3.20240229B3924 -------
+working_dir=D:\download\test1.00\examples\Timer
+project_name=Timer
+arg=gcc
+arg=-g
+arg=-I.
+arg=-o
+arg=driver.o
+arg=-c
+arg=driver.c
+------- cpptestscan v.10.6.3.20240229B3924 -------
+working_dir=D:\download\test1.00\examples\Timer
+project_name=Timer
+arg=gcc
+arg=-g
+arg=-I.
+arg=-o
+arg=timer.o
+arg=-c
+arg=timer.c
+------- cpptestscan v.10.6.3.20240229B3924 -------
+working_dir=D:\download\test1.00\examples\Timer
+project_name=Timer
+arg=gcc
+arg=-g
+arg=-I.
+arg=-o
+arg=stdinout.o
+arg=-c
+arg=stdinout.c
+------- cpptestscan v.10.6.3.20240229B3924 -------
+working_dir=D:\download\test1.00\examples\Timer
+project_name=Timer
+arg=gcc
+arg=clock.o
+arg=driver.o
+arg=timer.o
+arg=stdinout.o
+arg=-o
+arg=timer.exe
